@@ -1,0 +1,14 @@
+<!--components/list/list.wxml-->
+<view class="container">
+  <view class="item" wx:for="{{list}}">
+    <image class="image" src="../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg"></image>
+    <view class="detail">
+      <view class="text_dot_2 info">[预售3-20]安居房黄金卡号借款方打飞机阿卡冷风机按揭付款海得舒服</view>
+      <view class="bai"></view>
+      <view class="priceCon">
+        <text class="now">￥56</text>
+        <text class="old">￥119</text>
+      </view>
+    </view>
+  </view>
+</view>

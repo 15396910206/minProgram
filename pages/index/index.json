@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "mp-searchBar":"../../miniprogram_npm/weui-miniprogram/searchbar/searchbar"
+    "mp-searchBar":"../../miniprogram_npm/weui-miniprogram/searchbar/searchbar",
+    "list":"../../components/list/list"
   }
 }

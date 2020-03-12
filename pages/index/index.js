@@ -7,7 +7,15 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    swiperList:[
+      {
+        src:'../../image/16pic_4679363_b.jpg'
+      },
+      {
+        src: '../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg'
+      }
+    ] 
   },
   //事件处理函数
   bindViewTap: function() {
