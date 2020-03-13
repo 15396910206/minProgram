@@ -1,0 +1,101 @@
+/* components/categoryList/categoryList.wxss */
+
+.container {
+  height: 100%;
+  background: #fafafa;
+}
+
+.active {
+  color: #f54842;
+  border-left: 2px solid #f54842;
+  font-weight: 700;
+}
+
+.container>.content>.left_content {
+  height: 994rpx;
+  overflow: scroll;
+  background: #fff;
+}
+
+.container>.content>.left_content>.left {
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 200rpx;
+}
+
+.container>.content>.right_content {
+  width: 530rpx;
+  background: #fff;
+  height: 994rpx;
+  overflow: scroll;
+}
+
+.container>.content>.right_content>.right>image {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.container>.content>.right_content>.right>.title>view {
+  width: 176rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.list {
+  overflow: hidden;
+}
+.list>.item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list>.item>.content {
+  margin-left: 16rpx;
+  width: 240rpx;
+}
+
+.list>.item>.content>.image {
+  width: 240rpx;
+  height: 240rpx;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.list>.item>.content>.detail>.desc {
+  font-size: 24rpx;
+}
+
+.list>.item>.content>.detail>.price {
+  line-height: 80rpx;
+}
+
+.list>.item>.content>.detail>.price>.newprice {
+  font-weight: 700;
+}
+
+.list>.item>.content>.detail>.price>.oldprice {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.text_dot_2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.text_del {
+  text-decoration: line-through;
+}
+
+
+/* 隐藏滚动条 */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

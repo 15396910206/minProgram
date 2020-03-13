@@ -1,1 +1,87 @@
 /* pages/me/me.wxss */
+
+.header {
+  background: #E7552E;
+  height: 200rpx;
+  line-height: 200rpx;
+}
+
+.header>.real {
+  height: 140rpx;
+}
+
+.header>.real>.image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.order {
+  margin-bottom: 40rpx;
+}
+
+.margin_top {
+  margin-top: -40rpx;
+}
+
+.order>.marg {
+  line-height: 80rpx;
+  background-color: #fff;
+  margin-bottom: 4rpx;
+  border-top-left-radius: 16rpx;
+  border-top-right-radius: 16rpx;
+}
+
+.order>.marg>.top>.all {
+  color: #666;
+}
+
+.order>.bott {
+  flex-wrap: wrap;
+}
+
+.order>.bott>.item {
+  margin-left: 18rpx;
+  width: 100rpx;
+  text-align: center;
+  border-bottom-left-radius: 16rpx;
+  border-bottom-right-radius: 16rpx;
+}
+
+.order>.bott>.item>.image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.order>.bott>.item>.title {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.tool {
+  overflow: hidden;
+}
+
+.tool>.conta>.title {
+  line-height: 80rpx;
+  margin-bottom: 4rpx;
+}
+
+.tool>.conta>.content {
+  flex-wrap: wrap;
+}
+
+.tool>.conta>.content>.item {
+  text-align: center;
+  width: 170rpx;
+  height: 170rpx;
+}
+
+.tool>.conta>.content>.item>.cell>.image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.tool>.conta>.content>.item>.cell>.title {
+  color: #666;
+  font-size: 24rpx;
+}

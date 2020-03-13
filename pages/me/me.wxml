@@ -1,2 +1,86 @@
 <!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<view class="container">
+  <view class="header">
+    <view class="real dis_flex align_tems">
+      <image class="bor_rad_50 image marlt_10" src="../../image/779334da99e40adb587d0ba715eca102.jpg"></image>
+      <text class="font_fff marlt_10">张飞2015</text>
+    </view>
+  </view>
+
+  <!-- 我的订单 -->
+  <view class="marlt_15 marrt_15 order marbm_20 margin_top">
+    <view class="marg">
+      <view class="top dis_flex flex_x_between marlt_10">
+        <text>我的订单</text>
+        <view class="all">
+          <text class="marrt_5">全部订单</text>
+          <text class="marrt_5">></text>
+        </view>
+      </view>
+    </view>
+    <view class="bott padtp_10 back_fff dis_flex">
+      <view class="item pad_5">
+        <image class="image" src="../../image/pay.png"></image>
+        <view class="title">待付款</view>
+      </view>
+      <view class="item pad_5">
+        <image class="image" src="../../image/send.png"></image>
+        <view class="title">代发货</view>
+      </view>
+      <view class="item pad_5">
+        <image class="image" src="../../image/deliver.png"></image>
+        <view class="title">待收货</view>
+      </view>
+      <view class="item pad_5">
+        <image class="image" src="../../image/evaluate.png"></image>
+        <view class="title">待评价</view>
+      </view>
+      <view class="item pad_5">
+        <image class="image" src="../../image/refund.png"></image>
+        <view class="title">待付款</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 我的工具 -->
+
+  <view class=" tool">
+    <view class="conta marlt_15 marrt_15">
+      <view class="back_fff title">
+        <text class="marlt_10">我的工具</text>
+      </view>
+      <view class="content back_fff dis_flex">
+        <view class="item">
+          <view class="cell">
+            <image class="image padtp_15" src="../../image/ticket.png"></image>
+            <view class="title">优惠卷</view>
+          </view>
+        </view>
+        <view class="item">
+          <view class="cell">
+            <image class="image padtp_15" src="../../image/jifen.png"></image>
+            <view class="title">积分</view>
+          </view>
+        </view>
+        <view class="item">
+          <view class="cell">
+            <image class="image padtp_15" src="../../image/mark.png"></image>
+            <view class="title">联系客服</view>
+          </view>
+        </view>
+        <view class="item">
+          <view class="cell">
+            <image class="image padtp_15" src="../../image/footprint.png"></image>
+            <view class="title">足迹</view>
+          </view>
+        </view>
+        <view class="item">
+          <view class="cell">
+            <image class="image padtp_15" src="../../image/location_light.png"></image>
+            <view class="title">收获地址</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

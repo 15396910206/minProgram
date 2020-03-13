@@ -1,2 +1,7 @@
 <!--pages/category/catefory.wxml-->
-<text>pages/category/catefory.wxml</text>
+<view class="container">
+  <view class="header">
+    <mp-searchBar></mp-searchBar>
+  </view>
+  <categorylist></categorylist>
+</view>

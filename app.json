@@ -1,33 +1,43 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/category/catefory",
+    "pages/me/me",
+    "pages/index/index",
     "pages/car/car",
-    "pages/me/me"
+    "components/categoryList/categoryList"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "凯西旗舰店",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "selectedColor": "#ff6100",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home_orange.png"
       },
       {
         "pagePath": "pages/category/catefory",
-        "text": "分类"
+        "text": "分类",
+        "iconPath": "./image/circle.png",
+        "selectedIconPath": "./image/circle_orange.png"
       },
       {
         "pagePath": "pages/car/car",
-        "text": "购物车"
+        "text": "购物车",
+        "iconPath": "./image/cart.png",
+        "selectedIconPath": "./image/cart_orange.png"
       },
       {
         "pagePath": "pages/me/me",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "./image/people.png",
+        "selectedIconPath": "./image/people_orange.png"
       }
     ]
   },

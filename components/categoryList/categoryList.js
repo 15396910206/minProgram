@@ -1,24 +1,51 @@
-// pages/me/me.js
+// components/categoryList/categoryList.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[1,2,3,4,5]
+    list: [{
+        name: "全部商品"
+      },
+      {
+        name: "新品上架"
+      },
+      {
+        name: "女装区"
+      }, {
+        name: "男装区"
+      }, {
+        name: "童装区"
+      }, {
+        name: "棉服"
+      }, {
+        name: "羽绒服"
+      }, {
+        name: "清仓专区"
+      }, {
+        name: "美容护肤"
+      }, {
+        name: "鞋履区"
+      }, {
+        name: "箱包区"
+      }, {
+        name: "生活家居"
+      }
+    ],
+    selectIndex: 0,
   },
-
+  selectItem(e) {
+    console.log(e);
+    this.setData({
+      selectIndex: e.currentTarget.dataset.index
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    wx.setNavigationBarTitle({
-      title: '我的',
-    })
-    wx.setNavigationBarColor({
-      frontColor: '#ffffff',
-      backgroundColor: '#E7552E',
-    })
+
   },
 
   /**
