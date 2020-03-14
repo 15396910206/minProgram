@@ -1,0 +1,41 @@
+<!--pages/details/details.wxml-->
+<view class="contanier">
+  <swiper indicator-dots indicator-active-color="#F54842">
+    <block wx:for="{{swiperList}}" wx:for-item="item" wx:key="*this">
+      <swiper-item>
+        <image class="image" src="{{item.src}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="content">
+    <view class="price back_fff dis_flex flex_x_between flex_y_center">
+      <view class="priceCont">
+        <text class="jiage">￥</text>
+        <text class="shu">99</text>
+      </view>
+      <view class="xiao">
+        <text class="padlt_15">销量</text>
+        <text class="padlt_5">289</text>
+      </view>
+    </view>
+    <view class="title back_fff dis_flex">
+      <view class="name font_16">爱好复健科哈房间卡好费劲看哈数据库发哈讲课费哈酒客户发</view>
+      <view class="share">
+        <image class="shareImage" src="../../image/share.png"></image>
+        <view class="shaName">分享</view>
+      </view>
+    </view>
+    <view class="youhui back_fff marbm_20">
+      <view class="youTitle back_fff">优惠活动</view>
+      <view class="youCont font_666  back_fff dis_flex flex_x_between">
+        <view class="dis_flex align_tems">
+          <view class="mianjian">满减</view>
+          <text>满20.00元包邮</text>
+        </view>
+        <view class="marrt_20">></view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -18,6 +18,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    cilckItem(){
+      wx.navigateTo({
+        url: '/pages/details/details',
+      })
+    }
   }
 })

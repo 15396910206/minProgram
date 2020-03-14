@@ -1,0 +1,73 @@
+/* pages/details/details.wxss */
+.contanier{
+  background: #f8f8f8;
+}
+
+.image{
+  width: 100%;
+  height: 600rpx;
+}
+swiper{
+  height: 600rpx;
+}
+.price{
+  height: 100rpx;
+}
+.priceCont{
+  margin-left:40rpx; 
+  color: #F54842;
+  font-weight: 700
+}
+.shu{
+  font-size: 48rpx;
+}
+.xiao{
+  border-top-left-radius: 16rpx;
+  border-bottom-left-radius: 16rpx;
+  padding-right: 30rpx;
+  font-size: 24rpx;
+  color: #999;
+  background: #F8F8F8;
+}
+
+.name{
+  margin-left: 40rpx;
+  width: 590rpx; 
+  font-weight: 600;
+}
+.share{
+  text-align: center;
+  width: 120rpx;
+}
+.shareImage{
+  width: 50rpx;
+  height: 50rpx;
+}
+.shaName{
+  font-size: 24rpx;
+  color: #999;
+}
+.youhui{
+  padding-left: 40rpx;
+}
+.youTitle{
+  border-bottom: 2rpx solid #f8f8f8;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  font-weight: 600;
+}
+.youCont{
+  line-height: 100rpx;
+}
+
+.mianjian{
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 24rpx;
+  border-radius: 40rpx;
+  color: #F54842;
+  text-align: center;
+  width: 120rpx;
+  border: 1px solid #F54842;
+  margin-right: 20rpx;
+}

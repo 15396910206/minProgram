@@ -1,7 +1,4 @@
 <!--pages/category/catefory.wxml-->
 <view class="container">
-  <view class="header">
-    <mp-searchBar></mp-searchBar>
-  </view>
   <categorylist></categorylist>
 </view>

@@ -1,1 +1,10 @@
 /* pages/car/car.wxss */
+.button{
+  font-weight: normal;
+  color: #fff;
+  background: #F54842;
+  border-radius: 40rpx;
+}
+.kong{
+  text-align: center;
+}

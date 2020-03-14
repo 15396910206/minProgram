@@ -1,57 +1,26 @@
-// components/categoryList/categoryList.js
+// pages/details/details.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list: [{
-        name: "全部商品"
+    swiperList: [{
+        src: '../../image/16pic_4679363_b.jpg'
       },
       {
-        name: "新品上架"
-      },
-      {
-        name: "女装区"
-      }, {
-        name: "男装区"
-      }, {
-        name: "童装区"
-      }, {
-        name: "棉服"
-      }, {
-        name: "羽绒服"
-      }, {
-        name: "清仓专区"
-      }, {
-        name: "美容护肤"
-      }, {
-        name: "鞋履区"
-      }, {
-        name: "箱包区"
-      }, {
-        name: "生活家居"
-      }, {
-        name: "计生用品"
-      }, {
-        name: "户外运动"
-      },
-      {
-        name: "生活充值"
+        src: '../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg'
       }
-    ],
-    selectIndex: 0,
+    ]
   },
-  selectItem(e) {
-    this.setData({
-      selectIndex: e.currentTarget.dataset.index
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    wx.setNavigationBarTitle({
+      title: '快鱼xxx商品',
+    })
   },
 
   /**

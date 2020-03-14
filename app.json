@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/car/car",
     "pages/category/catefory",
     "pages/me/me",
-    "pages/index/index",
-    "pages/car/car",
     "components/categoryList/categoryList"
   ],
   "window": {

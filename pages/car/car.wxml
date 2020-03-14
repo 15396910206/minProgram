@@ -1,2 +1,5 @@
 <!--pages/car/car.wxml-->
-<text>pages/car/car.wxml</text>
+<view class="container">
+  <view class="kong">购物车为空</view>
+  <button class="button" bindtap="turnOn">去逛逛</button>
+</view>

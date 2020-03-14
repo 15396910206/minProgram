@@ -1,37 +1,31 @@
-<!--components/categoryList/categoryList.wxml-->
-<view class="container">
-  <view class="content dis_flex">
-    <view class="left_content padtp_10">
-      <view class="left" wx:for="{{list}}" bindtap="selectItem" wx:for-item="item" data-index="{{index}}" wx:key="*this">
-        <view class="font_666 {{index==selectIndex?'active':''}}">
-          {{item.name}}
-        </view>
+<view class="contanier">
+  <mp-searchBar></mp-searchBar>
+  <view class="content">
+    <scroll-view scroll-y class="left">
+      <view class="leftcont " bindtap="selectItem" data-index="{{index}}" wx:for="{{list}}" wx:for-item="item" wx:key="*this">
+        <view class="name {{index==selectIndex?'active':''}}">{{item.name}}</view>
       </view>
-    </view>
-    <view class="right_content marlt_10 martp_10">
-      <view class="right">
-        <view class="title dis_flex">
-          <view>销量</view>
-          <view>新品</view>
-          <view>价格</view>
-        </view>
-
-        <view class="list">
-          <view class="item">
-            <view class="content" wx:for="{{list}}" wx:key="*this">
-              <image class="image" src="../../image/372edfeb74c3119b666237bd4af92be5.jpg"></image>
-              <view class="detail">
-                <view class="desc text_dot_2">发酵爱好尽快发货积分我是模式鸡啊快乐十分adfafasfa</view>
-                <view class="price">
-                  <text class="newprice">￥19</text>
-                  <text class=" marlt_5 oldprice text_del">￥39</text>
-                </view>
-              </view>
+    </scroll-view>
+    <scroll-view scroll-y class="right">
+      <view class="header">
+        <text>数量</text>
+        <text>新品</text>
+        <text>价格</text>
+      </view>
+      <view class="rightCont">
+        <view class="item" wx:for="{{list}}" wx:key="*this">
+          <view>
+            <image class="image" src="../../image/372edfeb74c3119b666237bd4af92be5.jpg"></image>
+          </view>
+          <view class="details">
+            <text class="desc text_dot_2">为框架卡积分卡健身房框架啊首付款afasfasf</text>
+            <view class="pirceCont">
+              <text class="price">￥19</text>
+              <text class="oldPrice">￥39</text>
             </view>
           </view>
         </view>
-
       </view>
-    </view>
+    </scroll-view>
   </view>
 </view>
