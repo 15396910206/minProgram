@@ -25,7 +25,7 @@
         <view class="shaName">分享</view>
       </view>
     </view>
-    <view class="youhui back_fff marbm_20">
+    <view class="youhui back_fff marbm_10">
       <view class="youTitle back_fff">优惠活动</view>
       <view class="youCont font_666  back_fff dis_flex flex_x_between">
         <view class="dis_flex align_tems">
@@ -35,7 +35,12 @@
         <view class="marrt_20">></view>
       </view>
     </view>
+    <view class="back_fff">
+    afafasf
+    </view>
 
   </view>
 
 </view>
+
+<!-- <pop show="{{isShow}}"></pop> -->

@@ -1,0 +1,4 @@
+<!--components/pop/pop.wxml-->
+<view class="container" wx:if="{{show}}">
+     
+</view>

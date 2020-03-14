@@ -11,7 +11,8 @@ Page({
       {
         src: '../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg'
       }
-    ]
+    ],
+    isShow:false
   },
 
   /**

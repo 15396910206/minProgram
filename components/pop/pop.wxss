@@ -1,0 +1,6 @@
+/* components/pop/pop.wxss */
+.container{
+  z-index: 9999;
+  background: #fff;
+  height: auto;
+}
