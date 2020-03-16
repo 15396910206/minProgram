@@ -13,7 +13,7 @@
         <text>价格</text>
       </view>
       <view class="rightCont">
-        <view class="item" wx:for="{{list}}" wx:key="*this">
+        <view class="item" bindtap="toDetails" wx:for="{{list}}" wx:key="*this">
           <view>
             <image class="image" src="../../image/372edfeb74c3119b666237bd4af92be5.jpg"></image>
           </view>

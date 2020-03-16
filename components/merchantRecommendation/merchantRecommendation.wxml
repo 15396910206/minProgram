@@ -1,0 +1,20 @@
+<!--components/merchantRecommendation/merchantRecommendation.wxml-->
+<swiper indicator-dots indicator-active-color="#F54842">
+  <block wx:for="{{swiperList}}" wx:for-item="item" wx:key="*this">
+    <swiper-item>
+      <block wx:for="{{item.list}}" wx:key="*this">
+        <view class="container" bindtap="toDetails">
+          <view class="item">
+            <image class="image" src="{{item.src}}"></image>
+            <view>
+              <text class="text_dot_2 desc">春季新款女休闲工装口袋夹克连帽夹克风景啊看风景</text>
+              <view class="price">
+                <text>￥79</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </swiper-item>
+  </block>
+</swiper>

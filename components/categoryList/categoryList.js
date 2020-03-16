@@ -47,6 +47,11 @@ Page({
       selectIndex: e.currentTarget.dataset.index
     })
   },
+  toDetails(){
+    wx.navigateTo({
+      url: '/pages/details/details',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

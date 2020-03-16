@@ -27,20 +27,75 @@
     </view>
     <view class="youhui back_fff marbm_10">
       <view class="youTitle back_fff">优惠活动</view>
-      <view class="youCont font_666  back_fff dis_flex flex_x_between">
+      <view class="youCont font_666 align_tems  back_fff dis_flex flex_x_between">
         <view class="dis_flex align_tems">
           <view class="mianjian">满减</view>
           <text>满20.00元包邮</text>
         </view>
-        <view class="marrt_20">></view>
+        <image class="rightPic marrt_15" src="../../image/right.png"></image>
       </view>
     </view>
-    <view class="back_fff">
-    afafasf
+    <!-- 退款无忧 -->
+    <view class=" marbm_10 back_fff font_666 tui dis_flex flex_x_between align_tems">
+      <view class="tuiKuan">
+        <image class="rightPic" src="../../image/round_check_fill.png"></image>
+        <text>退货无忧</text>
+      </view>
+      <image class="rightPic marrt_15" src="../../image/right.png"></image>
     </view>
+
+    <!-- 选择尺码 -->
+    <view class="dis_flex select back_fff flex_x_between align_tems marbm_10">
+      <view class="selectCon dis_flex marlt_20 align_tems">
+        <image class="selectPic" src="../../image/square_check.png"></image>
+        <text class="marlt_5">请选择 颜色 尺码</text>
+      </view>
+      <image class="rightPic marrt_15" src="../../image/right.png"></image>
+    </view>
+
+    <!-- 评价 -->
+    <view>
+      <view class="pingCont back_fff dis_flex flex_x_between align_tems">
+        <view class="marlt_20 font_bold font_16">宝贝评价(1)</view>
+        <view>
+          <text class="font_666 font_12 marrt_10">查看全部</text>
+          <image class="rightPic marrt_15" src="../../image/right.png"></image>
+        </view>
+      </view>
+      <view class="botm padbm_5 back_fff font_666">
+        <view class="dis_flex align_tems marlt_20 padtp_5">
+          <image class="botmImg bor_rad_50" src="../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg"></image>
+          <text class="marlt_10">贺***哥</text>
+        </view>
+        <view class="marlt_20 padtp_5">
+          <text>2020-02-28 16:41:41</text>
+          <text>颜色:淡黄色</text>
+          <text>尺码:M</text>
+        </view>
+        <view class="marlt_20 padtp_5">
+          <text>款型很好看，妹妹收到很开心</text>
+        </view>
+      </view>
+    </view>
+    <!--商家推荐 -->
+    <view class="back_fff martp_10">
+      <view class="marlt_15">
+        <view class="shangjia font_bold font_16">商家推荐</view>
+        <merchantRecommendation></merchantRecommendation>
+      </view>
+    </view>
+
+    <!-- 图文详情 -->
+    <view class="back_fff martp_10">
+      <view class="dis_flex pad_10 flex_x_around">
+        <text wx:for="{{tuList}}" wx:key="*this" class="padbm_5 {{index===tuIndex?'active':''}}" bindtap="selectTu" data-index="{{index}}">{{item.name}}</text>
+      </view>
+    </view>
+
+
 
   </view>
 
 </view>
-
+<buy class="buy"></buy>
 <!-- <pop show="{{isShow}}"></pop> -->

@@ -1,4 +1,6 @@
 {
   "usingComponents": {
+    "merchantRecommendation": "../../components/merchantRecommendation/merchantRecommendation",
+    "buy":"../../components/buy/buy"
   }
 }

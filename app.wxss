@@ -1,17 +1,17 @@
 @import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
 
 page {
-   height: 100%;
-   font-size: 28rpx;
+  height: 100%;
+  font-size: 28rpx;
 }
+
 .container {
   min-height: 100%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   font-size: 28rpx;
   font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
   box-sizing: border-box;
-} 
-
+}
 
 .text_dot_2 {
   overflow: hidden;
@@ -21,7 +21,6 @@ page {
   -webkit-box-orient: vertical;
 }
 
-
 /* 文字溢出显示省略号 */
 
 .text_dot {
@@ -30,9 +29,12 @@ page {
   overflow: hidden;
 }
 
+.line_height{
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
 /* 文字（多行）溢出显示省略号 */
-
-
 
 /* 文字删除线 */
 
@@ -85,6 +87,10 @@ page {
   border-radius: 50%;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 .back_fff {
   background-color: #fff;
 }
@@ -116,6 +122,7 @@ page {
 .back_ddd {
   background-color: #ddd;
 }
+
 .back_666 {
   background-color: #666;
 }
@@ -135,9 +142,11 @@ page {
 .font_10 {
   font-size: 20rpx;
 }
+
 .font_red {
   color: #f94e48;
 }
+
 .font_main {
   color: #f94e48;
 }
@@ -145,6 +154,7 @@ page {
 .font_666 {
   color: #666;
 }
+
 .font_yellow {
   color: #b57c5b;
 }
@@ -156,6 +166,7 @@ page {
 .font_pur {
   color: #8c3eb2;
 }
+
 .font_pur_light {
   color: #c091d8;
 }
@@ -187,7 +198,6 @@ page {
 .font_20 {
   font-size: 40rpx;
 }
-
 
 .font_fff {
   color: #fff;
@@ -376,6 +386,7 @@ page {
 .pad_5_10 {
   padding: 10rpx 20rpx;
 }
+
 .pad_10_5 {
   padding: 20rpx 10rpx;
 }

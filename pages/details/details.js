@@ -12,7 +12,15 @@ Page({
         src: '../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg'
       }
     ],
-    isShow:false
+    isShow: false,
+    tuList: [{
+        name: '图文详情'
+      },
+      {
+        name: '热卖推荐'
+      },
+    ],
+    tuIndex: 0,
   },
 
   /**
@@ -21,6 +29,11 @@ Page({
   onLoad: function(options) {
     wx.setNavigationBarTitle({
       title: '快鱼xxx商品',
+    })
+  },
+  selectTu(e) {
+    this.setData({
+      tuIndex: e.currentTarget.dataset.index
     })
   },
 

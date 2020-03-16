@@ -1,0 +1,21 @@
+<!--components/buy/buy.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="item">
+      <image class="image" src="../../image/weChat.png"></image>
+      <view>找客服</view>
+    </view>
+    <view class="item">
+      <image class="image" src="../../image/puzi.png"></image>
+      <view>首页</view>
+    </view>
+    <view class="item">
+      <image class="image" src="../../image/cart.png"></image>
+      <view>购物车</view>
+    </view>
+    <view class="button">
+      <button class="cart">加入购物车</button>
+      <button class="buy">立即购买</button>
+    </view>
+  </view>
+</view>

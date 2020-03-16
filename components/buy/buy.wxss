@@ -1,0 +1,31 @@
+/* components/buy/buy.wxss */
+
+.container {
+  background: #fff;
+  width: 750rpx;
+  height: 142rpx;
+}
+
+.content {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.item {
+  color: #666;
+  text-align: center;
+  width: 120rpx;
+}
+.button{
+
+}
+.cart{
+  width: 60rpx;
+  font-weight: normal;
+}

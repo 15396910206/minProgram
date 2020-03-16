@@ -71,3 +71,46 @@ swiper{
   border: 1px solid #F54842;
   margin-right: 20rpx;
 }
+
+.rightPic{
+  width: 25rpx;
+  height: 25rpx;
+}
+.tuiKuan{
+  margin-left: 40rpx;
+}
+.tui{
+  height: 100rpx;
+}
+.selectPic{
+  width: 40rpx;
+  height: 40rpx;
+}
+.select{
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.pingCont{
+  height: 100rpx;
+  margin-bottom: 2rpx;
+}
+.botmImg{
+  width: 80rpx;
+  height: 80rpx;
+}
+.botm{
+  margin-bottom: 2rpx;
+}
+.shangjia{
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.active{
+  color: #F54842;
+  border-bottom: 4rpx #F54842 solid;
+}
+.buy{
+  position: fixed;
+  bottom: 0px;
+}
