@@ -1,5 +1,5 @@
 <view>
-  <searchBar></searchBar>
+  <!-- <searchBar></searchBar> -->
   <swiper>
     <block wx:for="{{swiperList}}" wx:key="*this" wx:for-item="item">
       <swiper-item>
