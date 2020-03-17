@@ -1,10 +1,10 @@
 <view>
-  <mp-searchBar></mp-searchBar>
+  <searchBar></searchBar>
   <swiper>
     <block wx:for="{{swiperList}}" wx:key="*this" wx:for-item="item">
-    <swiper-item>
-      <image style="width:100%" class="swiper-item" src="{{item.src}}"></image>
-    </swiper-item>
+      <swiper-item>
+        <image style="width:100%" class="swiper-item" src="{{item.src}}"></image>
+      </swiper-item>
     </block>
   </swiper>
   <list></list>

@@ -13,19 +13,41 @@
 }
 
 .image {
-  width: 50rpx;
-  height: 50rpx;
+  width: 40rpx;
+  height: 40rpx;
 }
 
 .item {
   color: #666;
   text-align: center;
-  width: 120rpx;
+  width: 110rpx;
 }
-.button{
 
+.title {
+  font-size: 24rpx;
 }
-.cart{
-  width: 60rpx;
-  font-weight: normal;
+
+.button {
+  display: flex;
+}
+
+.cart {
+  background: #eb8434;
+  color: #fff;
+  width: 195rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.buy {
+  background: #e7552e;
+  color: #fff;
+  width: 195rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  border-radius: 50px;
+  margin-left: 10rpx;
 }

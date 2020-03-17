@@ -12,7 +12,7 @@ Page({
         src: '../../image/Cg-4WVE4lvyIHszpAABsHDCstNAAAFjeQAVpiMAAGw0289.jpg'
       }
     ],
-    isShow: false,
+    isShow: true,
     tuList: [{
         name: '图文详情'
       },
@@ -21,6 +21,20 @@ Page({
       },
     ],
     tuIndex: 0,
+    buttons: [
+      {
+        type: 'default',
+        className: '',
+        text: '辅助操作',
+        value: 0
+      },
+      {
+        type: 'primary',
+        className: '',
+        text: '主操作',
+        value: 1
+      }
+    ]
   },
 
   /**

@@ -1,8 +1,11 @@
 /* pages/details/details.wxss */
 .contanier{
   background: #f8f8f8;
+  overflow: hidden;
 }
-
+.content{
+  margin-bottom: 142rpx;
+}
 .image{
   width: 100%;
   height: 600rpx;
